@@ -1,0 +1,26 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+  margin-top: 0.7rem;
+   
+}
+li{
+    cursor: pointer;
+    display: inline-flex;
+    padding-left: 1vw;
+    float: right;
+    padding-right: 1vw;
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+
+}
+
+a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+a:hover{
+  background-color: #6C4AB6;
+}

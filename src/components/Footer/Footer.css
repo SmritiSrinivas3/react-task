@@ -1,0 +1,14 @@
+.FooterClass{
+    background-color: #6C4AB6;
+    color: antiquewhite;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    font-weight: 400;
+}
+
+h4{
+    text-align: center;
+    font-weight: 200;
+}
