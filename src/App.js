@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 // importing pages
 import Home from './pages/Home/Home'
@@ -18,13 +19,14 @@ function App() {
       <br></br>
       <br></br>
       <div className="Content">
-        <Routes>
-          <Route path="/" component={<Home />}/>
-          <Route path="/about" component={<About />}/>
-          <Route path='/contact' component={<Contact />}/>
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path='/contact' element={<Contact />} />
+          </Routes>
       </div>
-      <Footer/>
+      <Footer />
     </div>
 
 
